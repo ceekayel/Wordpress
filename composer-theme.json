@@ -1,0 +1,18 @@
+{
+  "name": "trick-e/some-theme",
+  "description": "A Wordpress Theme Template.",
+  "license": "proprietary",
+  "keywords": ["wordpress","theme","themes"],
+  "authors": [
+    {
+      "name": "Christopher Legan",
+      "email": "ceekayel@trick-e.com"
+    }
+  ],
+  "type"    : "wordpress-theme",
+  "require": {
+    "php": ">=5.4 <5.7",
+    "composer/installers": "^1.0"
+  },
+  "minimum-stability": "stable"
+}
