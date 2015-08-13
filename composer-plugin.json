@@ -1,7 +1,7 @@
 {
   "name": "trick-e/some-plugin",
   "description": "A Wordpress Plugin Template.",
-  "license": "vendor",
+  "license": "proprietary",
   "keywords": ["wordpress","plugin","plugins"],
   "authors": [
     {
@@ -11,7 +11,8 @@
   ],
   "type"    : "wordpress-plugin",
   "require": {
-    "php": ">=5.4 <5.5"
+    "php": ">=5.4 <5.7",
+    "composer/installers": "^1.0"
   },
-  "minimum-stability": "dev"
+  "minimum-stability": "stable"
 }

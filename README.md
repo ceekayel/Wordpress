@@ -54,3 +54,12 @@
 
 * **Themes and plugins:** if you have locally available themes or plugins (such as paid third-party sources or custom ones) [here is how to do it](http://tech.vg.no/2014/11/25/using-local-packages-as-composer-dependencies)
 
+    ```
+      "repositories": [ 
+        {...},
+        {
+          "type": "vcs",
+          "url": "../changeMeLocalUrlForPluginOrTheme"
+        }
+      ]
+    ```
