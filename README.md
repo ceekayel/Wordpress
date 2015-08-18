@@ -49,7 +49,7 @@
 * **Bootstrap** (requires a theme, as appears in the suggestion when executing this command)
 
     ```
-      php composer.phar require "components/bootstrap"
+      composer require "components/bootstrap"
     ```
 
 * **Themes and plugins:** if you have locally available themes or plugins (such as paid third-party sources or custom ones) [here is how to do it](http://tech.vg.no/2014/11/25/using-local-packages-as-composer-dependencies)
@@ -63,3 +63,4 @@
         }
       ]
     ```
+* **Custom Themes** Consider creating a child theme if you're modifying an existing one http://codex.wordpress.org/Child_Themes

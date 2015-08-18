@@ -10,6 +10,12 @@
     }
   ],
   "type"    : "wordpress-theme",
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "http://wpackagist.org"
+    }
+  ],
   "require": {
     "php": ">=5.4 <5.7",
     "composer/installers": "^1.0"
